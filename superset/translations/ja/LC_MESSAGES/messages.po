@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-06-07 00:22-0700\n"
+"POT-Creation-Date: 2020-07-23 10:55+0800\n"
 "PO-Revision-Date: 2017-10-20 16:25+0900\n"
 "Last-Translator: \n"
 "Language: ja\n"
@@ -27,65 +27,6 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
-
-#: superset/assets/src/explore/controls.jsx:818 superset/db_engine_specs.py:343
-#: superset/db_engine_specs.py:393 superset/db_engine_specs.py:422
-#: superset/db_engine_specs.py:447 superset/db_engine_specs.py:499
-#: superset/db_engine_specs.py:561 superset/db_engine_specs.py:625
-#: superset/db_engine_specs.py:1190 superset/db_engine_specs.py:1232
-#: superset/db_engine_specs.py:1287 superset/db_engine_specs.py:1332
-#: superset/db_engine_specs.py:1365 superset/db_engine_specs.py:1395
-#: superset/db_engine_specs.py:1413
-msgid "Time Column"
-msgstr "時間列"
-
-#: superset/db_engine_specs.py:344 superset/db_engine_specs.py:394
-#: superset/db_engine_specs.py:448 superset/db_engine_specs.py:562
-#: superset/db_engine_specs.py:626 superset/db_engine_specs.py:1191
-#: superset/db_engine_specs.py:1233 superset/db_engine_specs.py:1333
-#: superset/db_engine_specs.py:1396 superset/db_engine_specs.py:1414
-msgid "second"
-msgstr "秒"
-
-#: superset/db_engine_specs.py:346 superset/db_engine_specs.py:395
-#: superset/db_engine_specs.py:423 superset/db_engine_specs.py:452
-#: superset/db_engine_specs.py:566 superset/db_engine_specs.py:629
-#: superset/db_engine_specs.py:1194 superset/db_engine_specs.py:1236
-#: superset/db_engine_specs.py:1288 superset/db_engine_specs.py:1334
-#: superset/db_engine_specs.py:1366 superset/db_engine_specs.py:1397
-#: superset/db_engine_specs.py:1417
-msgid "minute"
-msgstr "分"
-
-#: superset/db_engine_specs.py:348 superset/db_engine_specs.py:396
-#: superset/db_engine_specs.py:424 superset/db_engine_specs.py:457
-#: superset/db_engine_specs.py:500 superset/db_engine_specs.py:569
-#: superset/db_engine_specs.py:632 superset/db_engine_specs.py:1203
-#: superset/db_engine_specs.py:1239 superset/db_engine_specs.py:1297
-#: superset/db_engine_specs.py:1335 superset/db_engine_specs.py:1367
-#: superset/db_engine_specs.py:1398 superset/db_engine_specs.py:1420
-msgid "hour"
-msgstr "時間"
-
-#: superset/db_engine_specs.py:350 superset/db_engine_specs.py:397
-#: superset/db_engine_specs.py:425 superset/db_engine_specs.py:463
-#: superset/db_engine_specs.py:503 superset/db_engine_specs.py:572
-#: superset/db_engine_specs.py:635 superset/db_engine_specs.py:1206
-#: superset/db_engine_specs.py:1242 superset/db_engine_specs.py:1300
-#: superset/db_engine_specs.py:1336 superset/db_engine_specs.py:1368
-#: superset/db_engine_specs.py:1399 superset/db_engine_specs.py:1423
-msgid "day"
-msgstr "日"
-
-#: superset/db_engine_specs.py:352 superset/db_engine_specs.py:398
-#: superset/db_engine_specs.py:426 superset/db_engine_specs.py:470
-#: superset/db_engine_specs.py:504 superset/db_engine_specs.py:573
-#: superset/db_engine_specs.py:638 superset/db_engine_specs.py:1209
-#: superset/db_engine_specs.py:1245 superset/db_engine_specs.py:1337
-#: superset/db_engine_specs.py:1369 superset/db_engine_specs.py:1400
-#: superset/db_engine_specs.py:1426
-msgid "week"
-msgstr "週"
 
 #~ msgid "month"
 #~ msgstr "月"
@@ -2784,3 +2725,22 @@ msgstr "週"
 
 #~ msgid "Saved Queries"
 #~ msgstr "保存されたクエリ"
+
+#~ msgid "Time Column"
+#~ msgstr "時間列"
+
+#~ msgid "second"
+#~ msgstr "秒"
+
+#~ msgid "minute"
+#~ msgstr "分"
+
+#~ msgid "hour"
+#~ msgstr "時間"
+
+#~ msgid "day"
+#~ msgstr "日"
+
+#~ msgid "week"
+#~ msgstr "週"
+

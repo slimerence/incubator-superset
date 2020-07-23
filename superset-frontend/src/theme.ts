@@ -17,3 +17,24 @@
  * under the License.
  */
 import '../stylesheets/superset.less';
+
+window.onload = function(){
+    const currentUrl = window.location.pathname;
+    if(currentUrl.search('/login') != -1 ){
+        let body = document.querySelector('body');
+        let footer = document.querySelector('footer');
+        let loginBox = document.querySelector('#loginbox');
+        if( footer != null){
+            footer.style.display = 'none';
+        }
+        if( body!=null ){
+            body.style.backgroundImage = "url('/static/assets/images/bg.jpg')";
+            body.style.backgroundSize = 'cover';
+        }
+        if( loginBox != null){
+            loginBox.classList.add('sundear');
+        }
+    }
+}
+
+
