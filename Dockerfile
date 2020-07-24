@@ -33,7 +33,7 @@ RUN mkdir /app \
 # in order to only build if and only if requirements change
 COPY ./requirements.txt /app/
 RUN cd /app \
-        && pip install --no-cache -r requirements.txt
+        && pip install --no-cache -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 
 
 ######################################################################
@@ -120,8 +120,8 @@ USER root
 # Cache everything for dev purposes...
 RUN cd /app \
     && pip install --ignore-installed -e . \
-    && pip install --ignore-installed -r requirements.txt \
-    && pip install --ignore-installed -r requirements-dev.txt \
-    && pip install --ignore-installed -r requirements-extra.txt \
-    && pip install --ignore-installed -r requirements-local.txt || true
+    && pip install --ignore-installed -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple \
+    && pip install --ignore-installed -r requirements-dev.txt -i https://pypi.tuna.tsinghua.edu.cn/simple \
+    && pip install --ignore-installed -r requirements-extra.txt -i https://pypi.tuna.tsinghua.edu.cn/simple \
+    && pip install --ignore-installed -r requirements-local.txt -i https://pypi.tuna.tsinghua.edu.cn/simple || true
 USER superset
